@@ -28,6 +28,8 @@ gradlew.bat bootRun      # Windows
 ```
 La API queda en `http://localhost:8080`.
 
+En Linux/macOS, si `./gradlew` marca permiso denegado: `chmod +x gradlew`
+
 ## Endpoints
 
 ### GET /api/pet/{petId}
